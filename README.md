@@ -8,8 +8,10 @@ Good AI writing is not the most human-sounding. It is the least effortful to und
 
 ## Start here
 
+- **[CHEATSHEET.md](CHEATSHEET.md)** is the two-minute version: the contract, the four costs, the ten rules, and before/after examples.
 - **[research/00-synthesis.md](research/00-synthesis.md)** is the main report: the evidence, the four reader costs, the slop taxonomy, a reply model, and what to install.
 - **[skill/best-writing/SKILL.md](skill/best-writing/SKILL.md)** is the installable skill. It turns the findings into a procedure with completion checks, examples, and anti-patterns.
+- **[EVAL.md](EVAL.md)** is the ten-prompt protocol for measuring whether a change actually helps.
 
 ## Install the skill
 
@@ -40,4 +42,4 @@ Treat the community findings as hypotheses, not proof. The strongest claims in t
 
 ## Next step
 
-Run a small blind test. Pick ten requests you actually make. Generate replies with and without the skill, match them for length, remove the labels, and choose the better one without knowing the source. Count how many words you edit. That edit rate is the most practical measure of whether the writing is getting better.
+Add two or three samples of your own writing to `~/.agents/best-writing/voice/samples/`, then list them in `~/.agents/best-writing/voice/voice.md`. The skill reads that profile before drafting. After that, run the protocol in [EVAL.md](EVAL.md). Samples do more for voice than any adjective in a prompt, and edit rate is the most practical measure of whether the writing is getting better.

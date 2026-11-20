@@ -190,4 +190,4 @@ Why: the better version states one confidence level and names the boundary.
 
 ## Samples outrank rules
 
-If the user supplies writing samples, read them before drafting. Match their openings, their hedges, their rhythm, and their closings. Apply the rules above only where the samples are silent. A few thousand words of the user's own writing will do more for voice than any adjective in a prompt.
+Before drafting, read `~/.agents/best-writing/voice/voice.md` if it exists, and read any samples it lists. If the user points to other samples, read those too. Match their openings, their hedges, their rhythm, and their closings. Apply the rules above only where the samples are silent. A few thousand words of the user's own writing will do more for voice than any adjective in a prompt.
